@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.title{
+	font:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: darkcyan;
+	width: 16%;
+}
+
+.date{
+	width: 15%;
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" italic;
+}
+
+.category{
+	background: #f06;
+	background: linear-gradient(45deg, #fff722, #ff26f9);
+	min-height: 100%;
+}
+
+.settings:hover{
+	background-color: burlywood;
+}
+
+table, th, td{
+	text-align: center;
+	border: 1px solid #F92C30;
+}
+
+a:link{
+	text-decoration:line-through;
+}
+
+a:hover{
+	color: bisque;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: aqua;
+}

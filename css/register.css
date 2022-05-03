@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("../images/DSC_0085-2.jpg");
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-position: center;
+	padding: 60px;
+}
+form {
+	border: 3px solid #f1f1f1;
+	background-color:#FFFFFF;
+	width: 60%;
+	margin: auto;
+	padding: 40px;
+	}
+input[type=text], input[type=password], input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color:#ccc;
+	}
+select{
+	margin-top: 5px;
+	margin-bottom: 8px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color:#ccc;
+	}
+textarea{
+	margin-top: 5px;
+	margin-bottom: 8px;
+	height: 40px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color:#ccc;
+	height: auto;
+	}
+input[type=file]{
+	margin-top: 5px;
+	margin-bottom: 8px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color:#ccc;
+	width: 100%;
+}
+
+			button {
+				background-color: steelblue;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 100%;
+				margin-top: 20px;
+			}
+
+			button:hover {
+				opacity: 0.8;
+			}
+
+			.imgcontainer {
+				text-align: center;
+				margin: 24px 0 12px 0;
+			}
+
+			img.avatar {
+				width: 35%;
+				
+				border-radius: 50%;
+			}
+
+h1{
+	text-align: center;
+	color: black;
+	font-size: 30pt;
+}
+
+input [type=submit] {
+				background-color: #4CAF50;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 100%;
+				margin-top: 20px;
+			}
+font{
+	color: white;
+}
+
+fieldset{
+	display: inline-block;
+	width: 100%;
+}

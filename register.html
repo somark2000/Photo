@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign up!</title>
+<link rel="stylesheet" href="css/register.css"/>
+</head>
+
+<body>
+	<form action="scrips/register.php" method="post" enctype="multipart/form-data">
+		<h1 align="center">Creat an account</h1>	 
+		<div class="imgcontainer" align="center">
+			<img src="images/avatar.png" alt="Avatar" class="avatar">
+		</div>
+		<div align="center" >
+			<fieldset style="width: 30%">
+				<legend>Personal Details</legend>
+		<label ><b>First Name</b></label><br>
+		<input type="text" name="firstname" placeholder="Enter First Name" required><br>
+		<label ><b>Last Name</b></label><br>
+		<input type="text" name="lastname" placeholder="Enter Last Name" required><br>
+		<label ><b>Username</b></label><br>
+		<input type="text" name="username" placeholder="Enter Username" required><br>
+		<label ><b>Password</b></label><br>
+		<input type="password" name="password" placeholder="Enter Password" required><br>
+		<label ><b>E-mail</b></label><br>
+		<input type="email" name="email" placeholder="example@example.com" required><br>
+		<label ><b>Profile Picture</b></label><br>
+		<input type="file"  accept="image/*" name="photo"><br>
+		<button type="submit" class="registerbtn">Register</button>
+			</fieldset></div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Photoshoot</title>
+<link rel="stylesheet" href="css/photoshoot.css"/>
+<script src="scrips/photoshoot.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#text').hide();
+		$('#proc').hide();
+	});
+</script>
+
+</head>
+
+<body>
+	
+	<table>
+	<tr>
+	<td>
+		<select multiple id="list1">
+				<option selected>Select one</option>
+				<option onclick="list1tolist2('Portrait')" id="Portrait">Portrait</option>
+				<option onclick="list1tolist2('Wedding')" id="Wedding">Wedding</option>
+				<option onclick="list1tolist2('Family')" id="Family">Family</option>
+				<option onclick="list1tolist2('Friends')" id="Friends">Friends</option>
+				<option onclick="list1tolist2('SeniorYear')" id="SeniorYear">SeniorYear</option>
+				<option onclick="list1tolist2('BachelorParty')" id="BachelorParty">BachelorParty</option>
+				<option onclick="list1tolist2('GirsNight')" id="GirsNight">GirsNight</option>
+		</select>
+	</td>	
+	<td>
+		<select multiple id="list2">
+		<option selected>Select one</option>
+		</select>
+	</td>	
+	</tr>
+	</table>
+	<p id="demo"></p>
+	<p id="demo2"></p>
+	<button id="butt" onClick="dial()">Check Out!</button>
+	<div id="dialog" title="Basic dialog">
+	  <p id="text">This</p>
+	  <br>
+	  <form action="" method="post">
+		<button id="proc" type="submit">Proceed</button>
+		</form>
+	</div>
+</body>
+</html>

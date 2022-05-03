@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Book Now!</title>
+<link rel="stylesheet" href="css/book.css"/>
+</head>
+
+<body>
+	<h1 align="center">Please fill out the form</h1>
+	<table align="center" width="40%" border="single">
+	<form action="scrips/book.php" method="post">
+		<tr><td>
+			<table width="50%">
+			<tr>
+			<th colspan="2" bgcolor="lightgray">Personal information</th>
+			</tr>
+			<tr>
+				<td width="35%" align="right">First Name</td>
+				<td><input type="text" size="50" name="personal_first_name"></td>
+			</tr>
+			<tr>
+				<td align="right">Last Name</td>
+				<td><input type="text" size="50" name="personal_last_name"></td>
+			</tr>
+			<tr>
+				<td align="right">County</td>
+				<td><input type="text" size="50" value="Cluj" name="personal_county"></td>
+			</tr>
+			<tr>
+				<td align="right">City</td>
+				<td><input type="text" size="50" value="Cluj-Napoca" name="personal_city"></td>
+			</tr>
+			<tr>
+				<td align="right">Adress</td>
+				<td><textarea rows="1" cols="50" name="personal_adress">Street, Number, Apartment</textarea></td>
+			</tr>
+		<tr>
+				<td align="right">Email</td>
+				<td><input type="email" placeholder="example@example.com" size="50" name="personal_mail"></td>
+			</tr>
+		<tr>
+				<td align="right">Phone</td>
+				<td><input type="tel" placeholder="004712345678" maxlength="12" size="50" name="personal_phone"></td>
+			</tr>
+		</table>
+		</td>
+		<td>
+			<table width="50%">
+			<tr>
+			<th colspan="2" bgcolor="lightgray">Fiscal information</th>
+			</tr>
+			<tr>
+				<td width="35%" align="right" name="fiscal_first_name">First Name</td>
+				<td><input type="text" size="50"></td>
+			</tr>
+			<tr>
+				<td align="right">Last Name</td>
+				<td><input type="text" size="50" name="fiscal_last_name"></td>
+			</tr>
+			<tr>
+				<td align="right">County</td>
+				<td><input type="text" size="50" value="Cluj" name="fiscal_county"></td>
+			</tr>
+			<tr>
+				<td align="right">City</td>
+				<td><input type="text" size="50" value="Cluj-Napoca" name="fiscal_city"></td>
+			</tr>
+			<tr>
+				<td align="right">Adress</td>
+				<td><textarea rows="1" cols="50" name="fiscal_adress">Street, Number, Apartment</textarea></td>
+			</tr>
+		<tr>
+				<td align="right">Email</td>
+				<td><input type="email" placeholder="example@example.com" size="50" name="fiscal_mail"></td>
+			</tr>
+		<tr>
+				<td align="right">Phone</td>
+				<td><input type="tel" placeholder="004712345678" maxlength="12" size="50" name="fiscal_phone"></td>
+			</tr>
+		</table>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<table width="98%" border="single">
+			<tr><th bgcolor="lightgray" colspan="2" width="98%">Photoshoot details</th></tr>
+			<tr>
+			<td valign="middle" align="center" width="50%" rowspan="3"><span style="color: aquamarine">Type</span></td>
+			<td><select multiple name="type[]">
+				<option value="Portrait" selected>Portrait</option>
+				<option value="Wedding">Wedding</option>
+				<option value="Family">Family</option>
+				<option value="Friends">Friends</option>
+				<option value="Senior_Year">Senior Year</option>
+				<option value="Bachelor_Party">Bachelor Party</option>
+				<option value="Girs_Night">Girs Night</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" id="out" value="outdoor" checked name="where">Outdoor <br>
+					<input type="radio" id="in" value="indoor" name="where">Indoor <br>
+					<input type="radio" id="stud" value="studio" name="where">Studio <br>
+				</td>
+			</tr>
+			<tr>
+			<td>
+					<input type="checkbox" id="single" name="dress" value="single" required>Single Outfit <br>
+					<input type="checkbox" id="multiple" name="dress" value="multiple">Multiple Outfits <br>
+					<input type="checkbox" id="change" name="dress" value="change" disabled>Changeing Room <br>
+			</td>
+			</tr>
+			<tr>
+			<td>Location</td>
+			<td><input type="text" size="30" value="Cluj" name="location" readonly></td>
+			</tr>
+			</table>
+		</td>
+		<td>
+			<table>
+			<tr><th bgcolor="lightgray">Leave a note</th></tr>
+			<tr><td><textarea wrap="physical" cols="56" rows="9" name="notes"></textarea>	</td>
+			</tr>
+			<tr><td><button type="submit">Submit</button></td></tr>
+			</table>
+			</td>
+		</tr>
+	</form>	
+	</table>
+</body>
+</html>

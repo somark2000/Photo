@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="photos.xsl"?>
+<photos>
+	<photo>
+		<title>Morning</title>
+		<location>Sankt Gilgen</location>
+		<category>Sunset</category>
+		<date>2018</date>
+		<settings>ISO 150 f5.6 1/160s</settings>
+		<image>a.jpg</image>
+		<link>https://www.google.com/maps</link>
+	</photo>
+	<photo>
+		<title>Morning</title>
+		<location>Sankt Gilgen</location>
+		<category>Sunset</category>
+		<date>2018</date>
+		<settings>ISO 150 f5.6 1/160s</settings>
+		<image>a.jpg</image>
+		<link>https://www.google.com/maps</link>
+	</photo>
+	<photo>
+		<title>Morning</title>
+		<location>Sankt Gilgen</location>
+		<category>Sunset</category>
+		<date>2018</date>
+		<settings>ISO 150 f5.6 1/160s</settings>
+		<image>a.jpg</image>
+		<link>https://www.google.com/maps</link>
+	</photo>
+	<photo>
+		<title>Morning</title>
+		<location>Sankt Gilgen</location>
+		<category>Sunset</category>
+		<date>2018</date>
+		<settings>ISO 150 f5.6 1/160s</settings>
+		<image>a.jpg</image>
+		<link>https://www.google.com/maps</link>
+	</photo>
+
+</photos>

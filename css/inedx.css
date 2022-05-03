@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position:fixed;
+  top: 0;
+  margin-left: -10px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar .navbar_right {
+  float: right;
+}
+
+.navbar .navbar_left{
+	float: left;
+	padding-left: 20px;
+	overflow: hidden;
+}
+
+#about{
+	margin: auto;
+	width: 80%;
+	font-size: 25pt;
+	text-align: justify;
+	color: whitesmoke;
+	/*text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;*/
+}
+
+#cont{
+	background-color: slategray;
+	margin-top: 30%;
+	width: 100%;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin-left: -10px;
+    margin-bottom: -10px;
+}
+
+#foot{
+    background: linear-gradient(135deg,black,1%,darkgray);
+}
+
+.footrow{
+	height: 30px;
+	text-align: center;
+}
+.box{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color:black;
+	border: solid;
+/*	background-color: darkgray;*/
+	background: linear-gradient(135deg,black,1%,darkgray);
+	border-width: 3px;
+	border-color: black;
+	border-radius: 15px;
+	box-shadow: 12px 12px 2px 1px rgba(46,49,48, .2);
+	
+}
+body{
+	background-image: url(../images/DSC_0085-2.JPG);
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-position: center;
+	}
+
+#img{
+	width: 50px;
+	height: 120px;
+	float: left;
+	margin-right: 15px;
+}
+
+.img{
+	margin-left: auto;
+  	margin-right: auto;
+	vertical-align: middle;
+	padding-top: 90%;
+	display: block;
+	width: 45px;
+}
+
+.but{
+	background-color: steelblue;
+	color: whitesmoke;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	margin-top: 20px;
+	border-radius: 20px;
+	}
+.butlog{
+	background-color: steelblue;
+	color: whitesmoke;
+	padding: 8px 10px;
+	margin: 6px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 0px;
+	border-radius: 10px;
+	float: left;
+	}

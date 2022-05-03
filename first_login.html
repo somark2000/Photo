@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+<link href="css/login.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<form action="scrips/first_login.php" method="post">
+	  <h1 align="center">Log in!</h1>
+		<div class="imgcontainer">
+		<img src="images/avatar.png" alt="Avatar" class="avatar">
+	  </div>
+
+	  <div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname" required>
+
+		<label for="psw"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="psw" required>
+			
+		<button type="submit">Login</button>
+	  </div>
+
+	  <div class="container" style="background-color:#f1f1f1">
+		<button type="button" class="regist">Register</button>
+	  </div>
+	</form>
+</body>
+</html>
